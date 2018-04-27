@@ -56,7 +56,7 @@ backwards = s
 turning left on spot = q
 turning right on spot = e''')
 
-while True:
+while True: #Main program
     user_input = input()
     if user_input == "a":
         turn_left(motor_1, motor_2)
