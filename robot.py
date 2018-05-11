@@ -49,6 +49,7 @@ def turn_right_still(motor_1, motor_2): #turning right on the spot
         motor_2.setSpeed(150)
         motor_2.run(Adafruit_MotorHAT.FORWARD)
 
+#instructions for the user
 print('''Turn left = a
 turn right = d
 foward = w
